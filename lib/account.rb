@@ -1,10 +1,9 @@
 class Account
 
+  attr_reader :balance
+
   def initialize starting_balance = 0
     @balance = starting_balance
   end
 
-  def balance
-    @balance
-  end
 end
