@@ -14,4 +14,11 @@ describe Account do
     account = Account.new starting_balance
     account.balance.should == starting_balance
   end
+
+  it "should add the deposit to the balance" do
+    account = Account.new 10.0
+    account.deposit 20.0
+    account.balance.should == 30.0
+  end
+
 end
