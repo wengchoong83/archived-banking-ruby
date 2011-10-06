@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f22b9d-9af6-4d70-8626-f826cd20b5bd" name="Default" comment="" />
+    <list default="true" id="16f22b9d-9af6-4d70-8626-f826cd20b5bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/account.rb" afterPath="$PROJECT_DIR$/lib/account.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/account_spec.rb" afterPath="$PROJECT_DIR$/spec/account_spec.rb" />
+    </list>
     <ignored path="banking.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +29,7 @@
       <file leaf-file-name="account_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/account_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="43" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
+            <state line="5" column="12" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -35,16 +38,7 @@
       <file leaf-file-name="account.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="2" selection-start="502" selection-end="502" vertical-scroll-proportion="0.609375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.0078125">
               <folding />
             </state>
           </provider>
@@ -65,8 +59,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/account_spec.rb" />
         <option value="$PROJECT_DIR$/lib/account.rb" />
+        <option value="$PROJECT_DIR$/spec/account_spec.rb" />
       </list>
     </option>
   </component>
@@ -478,23 +472,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.8/gems/rspec-expectations-2.6.0/lib/rspec/expectations/extensions/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+        <state line="24" column="34" selection-start="662" selection-end="662" vertical-scroll-proportion="0.203125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/account_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
+        <state line="5" column="12" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0703125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="502" selection-end="502" vertical-scroll-proportion="0.609375">
+        <state line="4" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.0078125">
           <folding />
         </state>
       </provider>

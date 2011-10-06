@@ -45,4 +45,17 @@ describe Account do
     account_origin.balance.should == 90
     account_destination.balance.should == 10
   end
+
+  specify "transfer money from one account to another using object" do
+    account_origin = Account.new 100.0
+    account_destination = Account.new 0.0
+    account_origin.transfer(10).to account_destination
+    account_origin.balance.should == 90
+    account_destination.balance.should == 10
+  end
+
+  specify "partially completed transfer doesn't move any money" do
+    account_origin = Account.new 100.0
+    lambda {account_origin.transfer(50.0)}.should_not change{account_origin.balance}
+  end
 end
