@@ -33,4 +33,9 @@ describe Account do
     account.balance.should == 80.0
   end
 
+  specify "should be only positive withdrawals" do
+    account = Account.new 10.0
+    expect{account.withdraw(-10)}.should raise_error
+  end
+
 end

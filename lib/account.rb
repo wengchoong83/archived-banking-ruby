@@ -14,6 +14,9 @@ class Account
   end
 
   def withdraw amount
+    if amount <= 0
+      raise Exception.new "Invalid withdrawal"
+    end
     @balance -= amount
   end
 end
