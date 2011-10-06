@@ -21,4 +21,9 @@ describe Account do
     account.balance.should == 30.0
   end
 
+  specify "should be only positive deposits " do
+    account = Account.new 10.0
+    expect{account.deposit(-10)}.should raise_error
+  end
+
 end

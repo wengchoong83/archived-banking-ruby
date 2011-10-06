@@ -7,6 +7,9 @@ class Account
   end
 
   def deposit deposit_amount
+    if deposit_amount <= 0
+      raise Exception.new "Invalid deposit"
+    end
     @balance += deposit_amount
   end
 
