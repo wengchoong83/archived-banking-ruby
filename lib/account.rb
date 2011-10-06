@@ -19,4 +19,9 @@ class Account
     end
     @balance -= amount
   end
+
+  def transfer_to account_destination, amount
+    @balance -= amount
+    account_destination.deposit amount
+  end
 end

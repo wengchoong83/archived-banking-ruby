@@ -38,4 +38,11 @@ describe Account do
     expect{account.withdraw(-10)}.should raise_error
   end
 
+  specify "transfer money from one account to another" do
+    account_origin = Account.new 100.0
+    account_destination = Account.new 0.0
+    account_origin.transfer_to account_destination, 10
+    account_origin.balance.should == 90
+    account_destination.balance.should == 10
+  end
 end
