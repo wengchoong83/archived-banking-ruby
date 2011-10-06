@@ -4,6 +4,7 @@ require 'rspec'
 require '../lib/account.rb'
 
 describe Account do
+
   it "should initially have a balance of zero" do
     account = Account.new
     account.balance.should == 0.0
@@ -24,6 +25,12 @@ describe Account do
   specify "should be only positive deposits " do
     account = Account.new 10.0
     expect{account.deposit(-10)}.should raise_error
+  end
+
+  it "should substract the withdrawal amount from the balance" do
+    account = Account.new 100.0
+    account.withdraw 20.0
+    account.balance.should == 80.0
   end
 
 end
