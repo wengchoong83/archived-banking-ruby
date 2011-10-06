@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f22b9d-9af6-4d70-8626-f826cd20b5bd" name="Default" comment="" />
+    <list default="true" id="16f22b9d-9af6-4d70-8626-f826cd20b5bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/account.rb" afterPath="$PROJECT_DIR$/lib/account.rb" />
+    </list>
     <ignored path="banking.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +37,7 @@
       <file leaf-file-name="account.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.5390625">
+            <state line="26" column="2" selection-start="502" selection-end="502" vertical-scroll-proportion="0.609375">
               <folding />
             </state>
           </provider>
@@ -494,7 +496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.5390625">
+        <state line="26" column="2" selection-start="502" selection-end="502" vertical-scroll-proportion="0.609375">
           <folding />
         </state>
       </provider>

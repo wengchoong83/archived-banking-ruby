@@ -24,4 +24,5 @@ class Account
     @balance -= amount
     account_destination.deposit amount
   end
+
 end
